@@ -1,16 +1,17 @@
 import 'package:flutter_test/flutter_test.dart';
-
 import '../lib/calculator.dart'; 
 
 void main() {
   group('Calculator Tests', () {
-    Calculator calculator;
+
+    late Calculator calculator;
 
     setUp(() {
-      calculator = Calculator();
+      calculator = Calculator(); 
     });
 
     test('A função add deve retornar a soma correta de dois números', () {
+
       expect(calculator.add(2, 3), 5);
     });
 
