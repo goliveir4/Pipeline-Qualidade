@@ -1,4 +1,4 @@
-import 'package:meu_projeto_simples/calculator.dart';
+import 'package:a3-qualidade/calculator.dart';
 
 import '../lib/calculator.dart'; 
 
